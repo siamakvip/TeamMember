@@ -1,0 +1,129 @@
+/* Team Members Plugin Styles */
+
+.team-member-search-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.postal-code-input {
+    margin-bottom: 20px;
+}
+
+.postal-code-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.postal-code-input input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.postal-code-input button {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.postal-code-input button:hover {
+    background-color: #005a87;
+}
+
+.advisor-results-container {
+    margin-top: 20px;
+}
+
+.advisor-results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.advisor-result-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.advisor-photo {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #eee;
+}
+
+.advisor-photo-placeholder {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advisor-name {
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.4em;
+}
+
+.advisor-position,
+.advisor-org-position,
+.advisor-email,
+.advisor-linkedin,
+.advisor-description {
+    margin: 8px 0;
+    color: #555;
+}
+
+.advisor-position strong,
+.advisor-org-position strong,
+.advisor-email strong,
+.advisor-linkedin strong {
+    color: #333;
+}
+
+.error-message {
+    color: #d63638;
+    padding: 10px;
+    background-color: #ffeaea;
+    border: 1px solid #f3c6c6;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
